@@ -151,12 +151,15 @@ _Durable Functions_
 
 _API Management_ 
 
-- New APIM, explore tiers, identity and protocols
-- Create APIM with AZ CLI, explore gateway & devloper portal
-- APIGW functionality - SSL, authentication, caching, compression
-- Using policies for control flow & data transform
-- Using CDN & comparing with APIGW
+- [API Management](/labs/apim/README.md)
+- [Mocking APIs](/labs/apim-mock/README.md)
+- [Securing APIs with policies](/labs/apim-policies/README.md)
+- [Versioning APIs for breaking changes](/labs/apim-versioning/README.md)
 
+_Web Application Firewall & CDN_
+
+- [Application Gateway & WAF](/labs/appgw/README.md)
+- [Front Door & WAF](/labs/frontdoor/README.md)
 
 _Monitoring_
 
