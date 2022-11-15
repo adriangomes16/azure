@@ -13,7 +13,7 @@ namespace ChainedFunctions
         [FunctionName("Heartbeat")]
         [StorageAccount("StorageConnectionString")]
         public void Run(
-            [TimerTrigger("0 */2 * * * *")]TimerInfo myTimer,         
+            [TimerTrigger("0 */1 * * * *")]TimerInfo myTimer,         
             [Blob("heartbeat/{DateTime}.json", FileAccess.Write)] out string blobOutput, 
             ILogger log)
         {
